@@ -1,0 +1,178 @@
+#browser{
+    background-color: darkgrey;
+}
+
+.footer{
+    position: absolute;
+    margin-bottom: 0px;
+    display: block;
+    width: 100%;
+    font-size: small;
+    text-align: left;
+}
+
+#body{
+    width: 100%;
+    float: left;
+}
+
+aside{
+    width: 20%;
+    display: inline-block;
+    float: left;
+}
+
+aside .block{
+    margin: 15%;
+    background-color: rgba(168,171,181,0.19);
+    border:solid slateblue;
+    border-radius: 10px;
+}
+
+aside .block{
+    width: 15vmax;
+    text-align: center;
+}
+
+aside .block:first-child{
+    height: 4vmax;
+}
+
+aside ul{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-size: 1.5vmax;
+    height: 2vmax;
+    width: 15vmax;
+    margin: 0px auto;
+    padding: 0px;
+    border-bottom: 1px solid slateblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#file0 {
+    float: left;
+    width: 12vmax;
+    border-bottom-left-radius: 10px;
+    height: 1.4vmax;
+}
+
+#search{
+    float: right;
+    width: 2vmax;
+    height: 2vmax;
+}
+
+#search img{
+    width: 100%;
+    height: 100%;
+}
+
+aside a{
+    margin: 0 auto;
+    padding: 0px;
+    overflow: hidden;
+    display: inline;
+    font-size: 1.0vmax;
+    color: blue;
+}
+
+a:hover {
+    color: crimson;
+}
+
+a:active {
+    color: green;
+}
+
+aside li{
+    overflow: hidden;
+    height: 1.9vmax;
+    border-bottom: slateblue solid;
+}
+
+.block ul>li:last-child{
+    border-bottom: none;
+}
+
+#select0{
+    height: auto;
+    width: 70%;
+    display: inline-block;
+    float: left;
+    margin: 3%;
+    background-color: rgba(168,171,181,0.19);
+    border:solid slateblue;
+    border-radius: 10px;
+}
+
+#hchange{
+    width: 100%;
+}
+
+#selections{
+    height: auto;
+    border-bottom: 1px solid slateblue;
+}
+
+#selections select,#file1{
+    text-align: center;
+    font-size: 1.5vmax;
+    margin-left: 3%;
+    width: 20%;
+    background-color: lightseagreen;
+    border-radius: 10px;
+}
+
+.container {
+    margin: 3%;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-template-rows: repeat(4, 180px);
+}
+
+.container .inner{
+    background-color: rgba(168,171,181,0.19);
+    border: slateblue solid 1px;
+    border-radius: 15px;
+}
+
+.container > div > img {
+    border: slateblue solid 1px;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#numbers{
+    text-align: center;
+}
+
+#numbers a{
+    margin-left: 1%;
+    padding: 0px;
+    overflow: hidden;
+    display: inline;
+    font-size: 1.0vmax;
+    color: blue;
+}
+
+#numbers a:hover {
+    color: crimson;
+}
+
+#numbers a:active {
+    color: green;
+}
+
+
+

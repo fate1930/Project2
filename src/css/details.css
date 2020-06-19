@@ -1,0 +1,149 @@
+.footer{
+    position: absolute;
+    margin-bottom: 0px;
+    display: block;
+    width: 100%;
+    font-size: small;
+}
+
+.mchange{
+    width: 100%;
+}
+
+#container1{
+    width: 90%;
+    margin: 5%;
+    background-color: rgba(168,171,181,0.19);
+    border:solid slateblue;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 1.5vmax;
+    height: 2vmax;
+    width: 15vmax;
+    margin: 0px auto;
+    padding: 0px;
+    border-bottom: 1px solid slateblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.title{
+    height: 4vmax;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid slateblue;
+}
+
+.title p{
+    margin-top: 1vmax;
+    font-size: 2vmax;
+}
+
+.title span{
+    font-size: 1.5vmax;
+}
+
+#introductions{
+    width: 100%;
+    height: 60vmax;
+}
+
+#pic{
+    float: left;
+    border:solid slateblue;
+    border-radius: 10px;
+    margin: 5%;
+    width: 40%;
+    height: 40%;
+}
+
+#pic img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.like{
+    margin-top: 5%;
+    float: left;
+    border:solid slateblue;
+    border-radius: 10px;
+    width: 40%;
+    height: 15%;
+}
+
+.like h1{
+    font-size: 1.5vmax;
+    height: 30%;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    border-bottom: 1px solid slateblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.like p{
+    color: red;
+    text-align: center;
+    font-size: 5vmax;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.imgdetails{
+    margin-top: 2%;
+    float: left;
+    border:solid slateblue;
+    border-radius: 10px;
+    width: 40%;
+    height: 13%;
+}
+
+.imgdetails h1{
+    font-size: 1.5vmax;
+    height: 20%;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    border-bottom: 1px solid slateblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.imgdetails p{
+    font-size: 1.5vmax;
+    height: 25%;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    border-bottom: 1px solid slateblue;
+    text-align: left;
+}
+
+.imgdetails p:last-child{
+    border-bottom: none;
+}
+
+.details{
+    margin-left: 10%;
+    margin-right: 10%;
+    float: left;
+}
+
+.collect{
+    float: left;
+    background-color: red;
+    border-radius: 10px;
+    width: 40%;
+    margin-top: 2%;
+    height: 3vmax;
+}

@@ -1,0 +1,89 @@
+#refresh,#totop {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    font-size: 1.0vmax;
+    background-color: beige;
+    border: teal solid 1px;
+    border-radius: 15px;
+    height: 5%;
+    width: 5%;
+    z-index: 999;
+    display: block;
+}
+
+#home{
+    background-color: darkgrey;
+}
+
+#totop {
+    text-align: center;
+    bottom: 10%;
+}
+
+.totop {
+    color: black;
+    position: relative;
+    top: 0.7vmax;
+}
+
+#refresh:hover,#totop:hover {
+    background-color: green;
+}
+
+#toppicture{
+    width: 100%;
+    height: 80vmax;
+}
+
+#toppicture img{
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: repeat(2, 500px);
+}
+
+.container .inner{
+    background-color: rgba(168,171,181,0.19);
+    border: slateblue solid 1px;
+    border-radius: 15px;
+}
+
+.container > div > img {
+    margin: 10%;
+    border: slateblue solid 1px;
+    border-radius: 15px;
+    width: 80%;
+    height: 48%;
+    object-fit: cover;
+}
+
+.brief{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.brief p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 1.5vmax;
+}
+
+.brief .title{
+    font-size: 2.2vmax;
+}
+
+.footer p{
+    text-align: center;
+}
+
+

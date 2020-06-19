@@ -1,0 +1,138 @@
+#list{
+    background-color: white;
+    width: 2vmax;
+    height: 2vmax;
+}
+
+#upload,#mypicture,#mycollection,#index{
+    width: 1.5vmax;
+    height: 1.5vmax;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: black;
+    height: 3vmax;
+    width: 100%;
+    top: 0;
+    margin: 0 auto;
+}
+
+.lead{
+    width:95%;
+    height: 100%;
+    float:left;
+}
+
+.top{
+    padding: 0;
+    height: 100%;
+    list-style-type: none;
+    white-space:nowrap;
+    overflow: hidden;
+    width: auto;
+    margin:0 auto;
+}
+
+nav .top>li {
+    float: left;
+    margin-left: 8%;
+    position: relative;
+    text-align: center;
+    font-size: 3vmax;
+}
+
+nav .top>li a {
+    display: block;
+    background: black;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+nav .top>li a:hover {
+    background: #ffffff;
+    color: black;
+}
+
+#myaccount{
+    float: right;
+}
+
+#myaccount .second a{
+    background-color: cyan;
+    color: black;
+    border-radius: 5px;
+    height: 3vmax;
+    padding-top: 1vmax;
+}
+
+#myaccount .second a:hover{
+    background-color: darkblue;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px black;
+}
+
+.second{
+    position: relative;
+    display: none;
+}
+
+.second li{
+    float:none;
+    text-align: center;
+    font-size: 1.5vmax;
+}
+
+.top li:hover .second{
+    display: block;
+}
+
+.logo {
+    float:left;
+    height: 100%;
+    width: 3vmax;
+    margin: 0 auto;
+}
+
+.logo img {
+    padding: 0;
+    margin: 0 auto;
+    height: 100%;
+    width:100%;
+}
+
+.footer{
+    background-color: beige;
+    position: absolute;
+    margin-bottom: 0;
+    display: block;
+    width: 100%;
+    font-size: small;
+}
+
+.clear{
+    clear: both;
+}
+
+.footicon img{
+    height: 3vmax;
+    width: 3vmax;
+    margin-left: 17%;
+}
+
+.footicon{
+    background-color: beige;
+}
+
+
+
+
+
+

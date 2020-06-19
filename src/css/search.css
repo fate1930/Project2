@@ -1,0 +1,135 @@
+.footer{
+    position: absolute;
+    margin-bottom: 0px;
+    display: block;
+    width: 100%;
+    font-size: small;
+}
+
+#Search{
+    background-color: darkgrey;
+}
+
+.mchange{
+    width: 100%;
+}
+
+#container2{
+    width: 94%;
+    margin: 3%;
+    background-color: rgba(168,171,181,0.19);
+    border:solid slateblue;
+    border-radius: 10px;
+}
+
+#container3{
+    width: 94%;
+    margin: 3%;
+    background-color: rgba(168,171,181,0.19);
+    border:solid slateblue;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 1.5vmax;
+    height: 2vmax;
+    width: 15vmax;
+    margin: 0px auto;
+    padding: 0px;
+    border-bottom: 1px solid slateblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#container2 input,textarea{
+    margin: 1%;
+}
+
+#fbt{
+    width: 95%;
+    height: 2vmax;
+    border:solid slateblue;
+    border-radius: 10px;
+}
+
+#fbd{
+    width: 95%;
+    height: 8vmax;
+    border:solid slateblue;
+    border-radius: 10px;
+}
+
+#fil{
+    width: 15%;
+    height: 3vmax;
+    font-size: 1.0vmax;
+    background-color: beige;
+    border: teal solid 1px;
+    border-radius: 15px;
+}
+
+#fil:hover {
+    background-color: green;
+}
+
+.inner{
+    width: 100%;
+    height: 20vmax;
+    border-bottom: 1px solid slateblue;
+}
+
+.inner img {
+    float: left;
+    margin: 2vmax;
+    border: slateblue solid 1px;
+    border-radius: 15px;
+    width: 15vmax;
+    height: 15vmax;
+    object-fit: cover;
+}
+
+.brief{
+    width: 60vmax;
+    float: left;
+    margin: 2vmax;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: 3vmax;
+}
+
+.brief p{
+    line-height: 2vmax;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 1.5vmax;
+}
+
+#numbers1{
+    text-align: center;
+}
+
+#numbers1 a{
+    margin-left: 1%;
+    padding: 0px;
+    overflow: hidden;
+    display: inline;
+    font-size: 1.0vmax;
+    color: blue;
+}
+
+#numbers1 a:hover {
+    color: crimson;
+}
+
+#numbers1 a:active {
+    color: green;
+}
+
+

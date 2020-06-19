@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    color: #000000;
+    background-color: #E8E8E8;
+}
+
+.logo {
+    width: 20%;
+    height: 20%;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+}
+
+.logo img{
+    padding: 1%;
+    width: 8%;
+    height: 8%;
+}
+
+.logo p{
+    font-size: 1.5vmax;
+    font-style: italic;
+    color: red;
+}
+
+input[type="submit"]  {
+    font-size: 1.0vmax;
+    background-color: beige;
+    border: teal solid 1px;
+    border-radius: 15px;
+    height: 8%;
+    width: 40%;
+}
+
+input[type="submit"]:hover {
+    background-color: green;
+}
+
+a:link{
+    color: dodgerblue;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    color: crimson;
+}
+
+a:active{
+    color: green;
+}
+
+
+section{
+    margin-top: 2%;
+    border-radius: 15px;
+    background-color: azure;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 1.2vmax;
+}
+
+input, textarea {
+    padding: 0.5em;
+    margin: 1em 0;
+    width: 40%;
+    height: 8%;
+    background-color: #ffffff;
+    border: slateblue solid;
+    border-radius: 10px;
+    color: #000000
+}
+
+.firstline{
+    padding-top: 1%;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    font-size: small;
+}
+
+#toregister{
+    font-style: italic;
+    font-size: 1.8vmax;
+    padding-top: 2%;
+    text-align: center;
+}
