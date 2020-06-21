@@ -59,7 +59,7 @@ if(!isset($_SESSION['username'])){
                         <li><a href="upload.php"><img src="../images/others/upload.png" id="upload">Upload</a></li>
                         <li><a href="mypicture.php"><img src="../images/others/mypicture.png" id="mypicture">MyPicture</a></li>
                         <li><a href="mycollection.php"><img src="../images/others/mycollection.png" id="mycollection">MyCollection</a></li>
-                        <li><a href="login.php"><img src="../images/others/index.png" id="index">Login</a></li>
+                        <li><a href="login.php"><img src="../images/others/index.png" id="index">Log Out</a></li>
                     </ul>
                 </li>
             </ul>
